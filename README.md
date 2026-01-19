@@ -6,7 +6,7 @@ If you don't know how to send in a pr, just ask return or any of the other autis
 ## TODO:
 
 - [X] Theming (Theming the Doc site) (@GoingCrazyDude)
-- [ ] FAQ Entries (Basic FAQ) (@GoingCrazyDude)
+- [X] FAQ Entries (Basic FAQ) (@GoingCrazyDude)
 - [ ] Troubleshooting Entries
     - [ ] Client Issues (Roblox)
     - [ ] Fishstrap Issues
