@@ -23,7 +23,7 @@ If you don't know how to send in a pr, just ask return or any of the other autis
 - [ ] For Developers (@GoingCrazyDude)
     - [ ] Downloading from source and building
     - [ ] Whether we accept AI code or not (We wont)
-- [ ] License page (@GoingCrazyDude)
+- [X] License page (@GoingCrazyDude)
 - [ ] Contributors Page (@GoingCrazyDude)
 
 ## TODO (Maybe):
