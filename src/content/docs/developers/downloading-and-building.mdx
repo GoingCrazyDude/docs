@@ -1,0 +1,61 @@
+---
+title: Downloading and Building from source
+description: Learn how to download and build Fishstrap from scratch.
+---
+
+import { Steps } from '@astrojs/starlight/components';
+import { Code } from '@astrojs/starlight/components';
+import { Icon } from '@astrojs/starlight/components';
+
+## Downloading the source code
+To download the source code for the latest version of Fishstrap, follow the instructions provided:
+
+<Steps>
+    1. Download &nbsp;<Icon size="14px" name="seti:git" class="inline-icon"/> [Git](https://git-scm.com/).
+    2. In the terminal, type in the following command to clone the repository:
+
+       <Code code="git clone https://github.com/fishstrap/fishstrap.git --recursive" title="pwsh" lang="bash" />
+</Steps>
+Git will automatically download the Fishstrap repository and place it in the current directory.
+
+---
+
+## Building and running the project
+To build the project, you have two options:
+
+### Using &nbsp;<Icon size="22px" name="vscode" class="inline-icon"/> Visual Studio 
+You can also build the project using Visual Studio:
+
+<Steps>
+    1. Open the project in Visual Studio.
+    2. Build the project by either pressing F5 or pressing the **Fishstrap (Launch)** button.
+    
+        <img src="/building.png"/>
+</Steps>
+
+### Using the command line
+You can use the dotnet command line utility to build the project:
+
+<Code code="dotnet build -c Release" title="pwsh" lang="bash" />
+
+---
+
+## Publishing
+To publish the Fishstrap binary, you have two options:
+
+### Using &nbsp;<Icon size="22px" name="vscode" class="inline-icon"/> Visual Studio
+<Steps>
+    1. Right click on the solution named "Bloxstrap".
+    2. Select the **Publish** option.
+    3. In the publish window, click the **Publish** button.
+</Steps>
+
+### Using the command line
+<Steps>
+    1. Navigate to the project directory.
+    2. Run the following command:
+
+       <Code code="dotnet publish -p:PublishSingleFile=true -r win-x64 -c Release --self-contained false .\Bloxstrap\Bloxstrap.csproj" title="pwsh" lang="bash" />
+</Steps>
+
+You will find the resulting binary under `\bin\release\net6.0-windows\publish\win-x64`.

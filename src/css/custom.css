@@ -34,6 +34,10 @@
     --color-astronaut-blue-950: #0c2c45;
 }
 
+.inline-icon {
+    display: inline;
+}
+
 .hero img {
     width: 550px;
 }

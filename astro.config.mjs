@@ -55,6 +55,12 @@ export default defineConfig({
                         { label: 'License', slug: 'legal/license' },
                         { label: 'Privacy Policy', slug: 'legal/privacy-policy' },
 					],
+                },
+                {
+					label: 'For Developers',
+                    items: [
+                        { label: 'Downloading and Building from source', slug: 'developers/downloading-and-building'},
+					],
 				},
 			],
 		}),
