@@ -40,6 +40,7 @@ export default defineConfig({
                         { label: 'FastFlags (Client)', slug: 'manual/fast-flags-client'},
                         { label: 'Appearance', slug: 'manual/appearance'},
                         { label: 'Integrations', slug: 'manual/integrations'},
+                        { label: 'Bootstrapper', slug: 'manual/bootstrapper'},
 					]
 				},
 				{
